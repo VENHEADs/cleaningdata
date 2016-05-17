@@ -99,7 +99,7 @@ Of course we could use row names, but it is written than we have to use row.name
 * write.table(final,"final_solution.txt",row.name=FALSE )
 
 File is recorded
-
+**If we will read the written data we will receive dataset 7x87. Names of  dataset are added as new observation. In case we do not need them we can make a dataset withoit names and write their meaning in codebook**
 
 
 
