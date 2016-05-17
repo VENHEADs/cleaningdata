@@ -61,8 +61,7 @@ col_idx <- grep("Activity", names(final))
 
 
 final <- final[, c(col_idx, (1:ncol(final))[-col_idx])]
-write.table(final,"final_solution.txt",row.name=FALSE )
-
+write.table(final,"final_solution.txt",row.name=FALSE,col.names = FALSE  )
 
 
 
