@@ -96,10 +96,10 @@ We need to merge this 6 data sets into the one. It has 6 observation and 87 vari
 We need to order columns, so the Name of activity is the first. 
 Of course we could use row names, but it is written than we have to use row.name=FALSE when we ll write the file
 
-* write.table(final,"final_solution.txt",row.name=FALSE )
+* write.table(final,"final_solution.txt",row.name=FALSE,col.names = FALSE  )
 
 File is recorded
-**If we will read the written data we will receive dataset 7x87. Names of  dataset are added as new observation. In case we do not need them we can make a dataset withoit names and write their meaning in codebook**
+
 
 
 
